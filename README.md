@@ -1,4 +1,4 @@
-h1 Welcome!
+Welcome!
 ===============================================
 This is the ***scripts-for-python*** repository
 
@@ -9,11 +9,11 @@ This is the ***scripts-for-python*** repository
 I wish what this files can help you!
 
 
-h2 All files here:
+All files here:
 ------------------------------------------------
 
 
-    ### h3 about-you.py
+    ### about-you.py
 
 Helps you find your BMI, decode it and calculate your daily water value.
 
