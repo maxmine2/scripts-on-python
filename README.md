@@ -3,7 +3,7 @@ Welcome!
 This is the ***scripts-for-python*** repository
 
 
-    There you can find and download some good features for your app/program/cat :-)
+    There you can find and download some good features for your app/program/cat or dog :-)
 
 
 I wish what this files can help you!
@@ -13,7 +13,7 @@ All files here:
 ------------------------------------------------
 
 
-###about-you.py
+### about-you.py
     Helps you find your BMI, decode it and calculate your daily water value.
 
 

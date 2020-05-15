@@ -11,7 +11,7 @@ def decrypt_bmi(bmi):
     if bmi < 16.0:
         return f"{bmi} :Big Deficiency of body weight"
     if 16.0 <= bmi <= 18.54:
-        return f"{bmi} :A bit deficiency of body weight"
+        return f"{bmi} :Small deficiency of body weight"
     if 18.55 <= bmi <= 24.99:
         return f"{bmi} :BMI Good"
     if 25 <= bmi <= 29.99:
