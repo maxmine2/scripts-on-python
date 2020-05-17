@@ -5,7 +5,7 @@ app = Flask(__name__, template_folder="templtates")
 
 @app.route('/')
 def index():
-    return render_template("index.htm")
+    return render_template("index.html")
 
 @app.route('/bug')
 def bug_main_page():
