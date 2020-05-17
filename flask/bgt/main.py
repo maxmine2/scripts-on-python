@@ -1,11 +1,11 @@
-from flask import Flask
+from flask import Flask, render_template
 import db
 
 app = Flask(__name__, template_folder="templtates")
 
 @app.route('/')
 def index():
-    return 'The simplest bug-tracker. Made by maxmine2'
+    return render_template("index.htm")
 
 @app.route('/bug')
 def bug_main_page():
