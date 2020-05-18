@@ -3,6 +3,14 @@ import db
 
 app = Flask(__name__, template_folder="templtates")
 
+BUG_STATUS = {
+    0:"Opened",
+    1:"Working on",
+    2:"In next release",
+    3:"Closed",
+    4:"Canceled"
+}
+
 @app.route('/')
 def index():
     return render_template("index.html")
@@ -13,7 +21,9 @@ def bug_main_page():
 
 @app.route('/bug/<int:bug_id>')
 def bug_id_page(bug_id):
-    return 'Bug #{} here'.format(bug_id)
+    bug = db.get_bug_by_id(bug_id)
+    print(bug)
+    return render_template("bug_id.html", )
 
 @app.route('/bug/<int:bug_id>/close')
 def bug_remove(bug_id):
